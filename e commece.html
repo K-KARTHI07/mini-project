@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Movies Cover</title>
+    <style>
+        body {
+            display: block;
+            height: 100%;
+            margin: 0;
+            position: relative;
+            width: 100%;
+        }
+        #main{
+            width: 100vw;
+            position: relative;
+        }
+        #main img{
+            width: 100%;
+            height: 100%;
+        }
+        #sub1 {
+            position: absolute;
+            top: 0;
+            left: 20px;
+        }
+        #sub1 img {
+            width: 200px;
+        }
+        #sub2 {
+            position: absolute;
+            width: 94vw;
+            top: 80px;
+            left: 3vw;
+            height: 60vh;
+            border: 3px white solid;
+            border-radius: 30px;
+        }
+        #sub2 img {
+            width: 100%;
+            height: 100%;
+            border: 3px white solid;
+            border-radius: 30px;
+            filter: brightness(40%);
+        }
+        #sub3 {
+            width: 90vw;
+            left: 5vw;
+            position: absolute;
+            top: 80px;
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+        }
+        #sub4 {
+            position: absolute;
+            width: 86vw;
+            left: 7vw;
+            display: flex;
+            justify-content: space-evenly;
+            top: 500px;
+        }
+        .sub41 {
+            width: 250px;
+            height: 300px;
+            position: relative;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+        .sub41 img {
+            width: 250px;
+            height: 300px;
+            position: relative;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+        .sub42 {
+            position: absolute;
+            bottom: 0;
+            color: white;
+        }
+        #sub5 {
+            position: absolute;
+            right: 300px;
+            top: 30px;
+        }
+        #sub5 select {
+            width: 100px;
+            height: 30px;
+            background-color: black;
+            color: white;
+            border: 2px white solid;
+            border-radius: 20px;
+        }
+        #sub5 button {
+            width: 100px;
+            height: 30px;
+            background-color: red;
+            color: black;
+            border: 2px white solid;
+            border-radius: 20px;
+        }
+        #sub6 {
+            position: absolute;
+            top: 850px;
+            width: 70vw;
+            left: 15vw;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        #sub6 input{
+            width: 300px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border: 3px silver solid;
+            border-radius: 30px;
+        }
+        </style>
+</head>
+<body>
+    <div id="main">
+        <img id="main_image" src="https://static.vecteezy.com/system/resources/thumbnails/027/238/932/small/abstract-geomatric-modern-background-vector.jpg" alt="">
+        <div id="sub1">
+            <img src="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940" alt="">
+        </div>
+        <div id="sub2">
+            <img src="https://www.reliancedigital.in/wp-content/uploads/2019/02/netflix_movies_cover.jpg" alt="">
+        </div>
+        <div id="sub3">
+            <h1>Endless Entertainment Starts Here.</h1>
+            <h1>Plans from $149</h1>
+            <p>Cancel or switch plans at any time</p>
+        </div>
+        <div id="sub4">
+            <div class="sub41">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjOrEbGaQT0xc9Do15SDMYbQDffhkeO9cpLg&s" alt="">
+                <div class="sub42">
+                    <h1>Vidamuyarchi</h1>
+                </div>
+            </div>
+            <div class="sub41">
+                <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17816200_p_v8_aa.jpg" alt="">
+                <div class="sub42">
+                    <h1>MASTER</h1>
+                </div>
+            </div>
+            <div class="sub41">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/75/Leo_%282023_Indian_film%29.jpg" alt="">
+                <div class="sub42">
+                    <h1>lEO</h1>
+                </div>
+            </div>
+        </div>
+        <div id="sub5">
+            <select>
+                <option>தமிழ்</option>
+                <option>English</option>
+                <option>हिन्दी</option>
+            </select>
+            <button>Sign In</button>
+        </div>
+        <div id="sub6">
+            <table>
+                <tr>
+                    <td>
+                        <input type="email" placeholder="enter the email">
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
